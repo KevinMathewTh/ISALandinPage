@@ -1,0 +1,67 @@
+body{
+    background-color:#1a1a1a;
+    font-family: lato, sans-serif;
+    font-weight: bold;
+}
+
+.polygon{
+    width:460px;height:280px;
+    background:#1a1a1a;
+    clip-path:polygon(0 0,100% 0,80% 100%,0 100%);
+}
+
+.reach{
+    max-height:150px;
+    height:100%;
+    font-size:9rem;
+    font-weight:700;
+    overflow:hidden;
+    line-height:9rem;
+    margin-left:36px;
+    color:#6ECDFA;
+}
+
+.us{
+    font-size:3.5rem;
+    white-space:nowrap;
+    color:#D4F0FC;
+    margin-left:339px;
+}
+
+.polygon.greet{
+    margin-left:-119px;
+    line-height:0.01rem;
+}
+
+.container,.container-lg,.container-md,.container-sm,.container-xl{
+    padding-top:50px;
+}
+
+.icon.ion-ios-email-outline.mail,.icon.ion-ios-location-outline.pin,.la.la-phone-square.phone{
+    font-size:3.5rem;
+    color:#fff;
+}
+
+.col.location{
+    text-align:center;
+    display:flex;
+    margin-left:150px;
+}
+
+.address{
+    color:#6ECDFA;
+    padding:25px;
+    margin-left:30px;
+}
+
+.col.tele{
+    text-align:center;
+    display:flex
+    ;margin-left:100px;
+}
+
+.col.email{
+    text-align:center;
+    display:flex;
+    margin-left:50px;
+}

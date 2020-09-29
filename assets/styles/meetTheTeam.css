@@ -1,0 +1,81 @@
+.polygon{
+    width:380px;
+    height:280px;
+    background:#1a1a1a;
+    clip-path:polygon(0 0,100% 0,80% 100%,0 100%);
+}
+
+p{
+    font-family:Roboto,sans-serif;
+    color:#6ECDFA;
+}
+
+.meet{
+    max-height:150px;
+    height:100%;
+    font-size:9rem;
+    font-weight:700;
+    overflow:hidden;
+    line-height:9rem;
+    margin-left:36px;
+}
+
+.team{
+    font-size:3.5rem;
+    white-space:nowrap;
+    margin-left:115px;
+    color:#d4f0fc;
+}
+
+.polygon.greet{
+    margin-left:-112px;
+    line-height:0.01rem;
+} 
+
+body{
+    background-color:#1a1a1a;
+    font-family: lato, sans-serif;
+    font-weight: bold;
+}
+
+.parallelogram{
+    width:200px;
+    height:250px;
+    -webkit-transform:skew(-20deg);
+    -moz-transform:skew(-20deg);
+    -o-transform:skew(-20deg);
+    background:#d4f0fc;
+    margin-left:150px;
+}
+
+.container,.container-lg,.container-md,.container-sm,.container-xl{
+    padding-top:50px;
+}
+
+.h1,h1{
+    color:#6ECDFA;
+    text-align:right;
+}
+
+.names{
+    text-align:right;
+}
+
+.position{
+    color: #d4f0fc;
+    margin-bottom:20px;
+}
+
+.h4,h4{
+    color:#ffffff;
+    font-weight: normal;
+}
+
+.parallelogram.board{
+    margin-left:420px;
+}
+
+.p-stick{
+    position: -webkit-sticky;
+    position: fixed;
+}
