@@ -1,0 +1,54 @@
+body{
+    background-color:#1a1a1a;
+    font-family: lato, sans-serif;
+    font-weight: bold;
+}
+
+.fa-edit{
+    font-size: 4rem;
+
+}
+
+.hide{
+    color:#1a1a1a;
+}
+
+.a-1{
+    color:#6ECDFA;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.c-1{
+    background-color:#1a1a1a;
+    color: #ffffff; 
+}
+.card{
+    height: 15rem;
+}
+
+.card-text{
+    border-radius: 5px;
+    background-color:#6ECDFA;
+    color: black;
+    padding: 5px;
+}
+
+.my-div{
+    padding-top: 1rem;
+}
+
+
+
+.hide {
+    display: none;
+  }
+      
+.my-div:hover + .hide {
+    transition-delay: 2s slow;
+    display: inline-block;
+}
+
+.my-div:hover{
+    padding-top:0px;
+}
