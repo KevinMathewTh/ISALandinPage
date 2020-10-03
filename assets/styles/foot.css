@@ -1,0 +1,88 @@
+div{
+    background-color: #D4F0FC;
+    width: 100%;
+
+}
+ul {
+    display: flex;
+   }
+.social-block{
+    display: inline-block;
+    padding:0rem 1rem;
+}
+
+.social-menu ul li {
+    list-style: none;
+    margin: 0rem 0.31rem;
+    margin-top: 0.9375rem;
+   }
+
+.social-menu ul li .fa {
+    color: #000000;
+    transition: .5s;
+    font-size: 1.5rem;
+   }
+
+.social-menu ul li a {
+    position: relative;
+    
+    width: 1.5625rem;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0rem);
+}
+
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -0.625rem);
+}
+
+.isa-vit{
+    font-style: lato; 
+    margin-top: 0rem;
+    padding-left:30%;
+    color: #01303F;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+a.subscribe-button{
+    background-color: #01303F;
+    color: white;
+    text-align: center;
+    border-radius: 1.5625rem;
+    padding:0.3125rem 0.9375rem;
+    margin-left: 320%;
+    font-size: 0.8rem;
+}
+input{
+    border:none;
+    background-color: #c4ecfd;
+    margin-left:150%;
+    margin-top: 0.125rem;
+    padding: 0rem 0.5rem;
+    width:10.625rem;
+    border-bottom: 0.0625rem solid black;
+}
+nav{
+    width: 100%;
+}
+.bottom-line  li a{
+    color:#01303F;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 620;
+    padding:0rem 1.5rem;
+    display: inline-block;
+    
+}
+.bottom-line{
+    padding-left: 34%;
+}
+.student-chapter{
+    font-style: lato; 
+    margin-top: 0rem;
+    padding-left: 44.2%;
+    color: #01303F;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
