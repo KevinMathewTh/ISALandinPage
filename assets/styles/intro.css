@@ -25,7 +25,7 @@
     font-size:3.5rem;
     white-space:nowrap;
     color:#D4F0FC;
-    margin-left:185px;
+    margin-left:201px;
 }
 
 .polygon.greet{
@@ -39,4 +39,5 @@
     font-size: 1.2rem;
     font-weight: normal;
     text-align: justify;
+    float: right;
 }
