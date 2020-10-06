@@ -11,7 +11,8 @@
     clip-path:polygon(0 0,90% 0,65% 100%,0 100%);
 }
 
-.hello{max-height:150px;
+.hello{
+    max-height:150px;
     height:100%;
     font-size:9rem;
     font-weight:700;
@@ -25,7 +26,7 @@
     font-size:3.5rem;
     white-space:nowrap;
     color:#D4F0FC;
-    margin-left:201px;
+    margin-left:171px;
 }
 
 .polygon.greet{

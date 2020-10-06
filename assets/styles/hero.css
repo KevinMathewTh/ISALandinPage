@@ -220,24 +220,22 @@
   height: 68vh;
   /* z-index: 1; */
 }
-h1
+.iv h1
 {
   font-weight: 900;
   font-size: 100px;
   position: relative;
   top:240px;
   margin-left: 180px;
+  font-family: 'Lato',sans-serif;
 }
-h2
+.iv h2
 {
   font-weight: 300;
   font-size: 40px;
   margin-left: 215px;
   position:relative;
   top:220px;
-}
-h1,h2
-{
   font-family: 'Lato',sans-serif;
 }
 #arm-left
