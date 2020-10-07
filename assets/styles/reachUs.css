@@ -1,11 +1,4 @@
-body{
-    background-color:#1a1a1a;
-    font-family: lato, sans-serif;
-    font-weight: bold;
-    
-}
-
-.polygon{
+.polygon.cut{
     width:460px;height:280px;
     background:#1a1a1a;
     clip-path:polygon(0 0,100% 0,80% 100%,0 100%);

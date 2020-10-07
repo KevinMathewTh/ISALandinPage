@@ -1,9 +1,9 @@
-div{
+.footer div{
     background-color: #D4F0FC;
     width: 100%;
 
 }
-ul {
+.footer ul {
     display: flex;
    }
 .social-block{
@@ -31,7 +31,7 @@ ul {
 }
 
 .social-menu ul li a:hover {
-    transform: rotate(0deg) skew(0deg) translate(0, -0.625rem);
+    transform:translate(0, -0.625rem);
 }
 
 .isa-vit{
@@ -51,7 +51,7 @@ a.subscribe-button{
     margin-left: 300%;
     font-size: 0.8rem;
 }
-input{
+.footer input{
     border:none;
     background-color: #c4ecfd;
     margin-left:150%;
@@ -60,7 +60,7 @@ input{
     width:10.625rem;
     border-bottom: 0.0625rem solid black;
 }
-nav{
+.footer nav{
     width: 100%;
 }
 .bottom-line  li a{

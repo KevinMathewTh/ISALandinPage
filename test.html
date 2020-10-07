@@ -19,11 +19,11 @@
         <link rel="stylesheet" href="assets/styles/intro.css"> 
         <link rel="stylesheet" href="assets/styles/navbar.css">
         <link rel="stylesheet" href="assets/styles/hero.css">
-        <link rel="stylesheet" href="carousel.css">
+        <link rel="stylesheet" href="assets/styles/carousel.css">
         <link rel="stylesheet" href="assets/styles/domains.css">
         <link rel="stylesheet" href="assets/styles/meetTheTeam.css">
         <link rel="stylesheet" href="assets/styles/ReachUs.css">          
-        <!--<link rel="stylesheet" href="assets/styles/foot.css"> -->
+        <link rel="stylesheet" href="assets/styles/foot.css">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
         <title>ISA | VIT </title>
 
@@ -70,7 +70,6 @@
                 <img src="assets/images/auto2.png" id="arm-right">
 
         </div>
-              <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
         <!-- Intro section starts here -->
         <div class="container">
@@ -94,7 +93,6 @@
                 </div>
             </div>
         </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <!-- Intro section ends here -->
 
         <!--Carousel starts here-->
@@ -131,7 +129,6 @@
               </a>
             </div>
         </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <!--Carousel ends here-->
 
         <!--Domains start here-->
@@ -238,14 +235,13 @@
             </div>
           </div>
         </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <!--Domains end here-->
 
         <!-- meetTheTeam starts here -->
           <div class="container">
               <div class="row">
                   <div class="col-3 ">
-                      <div class="polygon greet p-stick">
+                      <div class="polygon greet">
                           <div class="row">
                               <div class="col">
                                   <p class="meet">Meet</p>
@@ -506,13 +502,12 @@
             </div>
         </div>
       </div>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <!-- meetTheTeam ends here -->
         <!--reachUs starts here-->
         <div class="container">
           <div class="row">
               <div class="col-4">
-                  <div class="polygon greet">
+                  <div class="polygon greet cut">
                       <div class="row">
                           <div class="col">
                               <p class="reach">Reach</p>
@@ -540,11 +535,37 @@
               </div>
           </div>
       </div>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <!--reachus ends here-->
 
         <!--footer starts here-->
-        
+        <div class="footer">
+          <div class="social-menu">
+            <ul>
+              <li><a href="https://www.facebook.com/isavitchapter/" target="_blank" class="social-block"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.instagram.com/isa_vit_/?hl=en" target="_blank" class="social-block"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://www.linkedin.com/company/international-society-of-automation-isa-vit/" target="_blank" class="social-block"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/isa-vit" target="_blank" class="social-block"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              
+              
+              <li class="isa-vit"><h3>ISA-VIT</h3></li>
+              <li><input type="email" placeholder="xyz@example.com"></li>
+              <li><a href="#" class="subscribe-button">Subscribe</a></li>
+           </ul>
+      
+          <hr color="#84d6fa" style="width:92%; height:0.1rem">
+          
+              <div class="bottom-line">
+              <ul>
+                  <li><a href="intro.html">About</a></li>
+                  <li><a href="">Events</a></li>
+                  <li><a href="meetTheTeam.html">Team</a></li>
+                  <li><a href="">Blog</a></li>
+                  <li><a  href="ReachUs.html">Contact</a></li>    
+              </ul>
+              </div>
+        <div class="student-chapter">ISA-VIT Student Chapter</div>
+        </div>
+      </div>
         <!--footer ends here-->
 
 
@@ -554,4 +575,12 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script src="/assets/js/meetTheTeam.js"></script>
+        <script>
+          $( document ).ready(function() {
+              console.log( window.pageYOffset );
+              if(window.pageYOffset>'647px'){
+              console.log('Hello');
+          }
+          });
+        </script>
     </body>
