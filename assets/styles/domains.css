@@ -25,13 +25,13 @@ body{
     color: #ffffff; 
 }
 .card{
-    height: 15rem;
+    height: 16rem;
 }
 
 .card-text{
     border-radius: 5px;
     background-color:#6ECDFA;
-    color: black;
+    color: #1a1a1a;
     padding: 5px;
 }
 
