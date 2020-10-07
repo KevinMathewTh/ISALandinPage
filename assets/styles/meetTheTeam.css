@@ -73,8 +73,3 @@ p{
 .parallelogram.board{
     margin-left:420px;
 }
-
-.p-stick{
-    position: -webkit-sticky;
-    position: fixed;
-}
