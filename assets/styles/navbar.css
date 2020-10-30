@@ -1,49 +1,62 @@
 
-.nav{
+.navbar{
     width: 100%;
-    height: 50px;
+    height: 41px;
     position: fixed;
     z-index: 2;
-    
+    background-color:  #6ecefaef;
+    /* background-color: #d4f0fcec; */
+    transition: top 0.3s;
 }
 
 .img-log{
-    padding: 20px;
+    margin-top: -5px;
+    margin-left: -1rem;
 }
 
-.isa-logo{
-    margin-left: 1.2rem;
-    margin-top: 0.5rem;
-    margin-right: 2rem;
-    
-}
-.nav ul {
-    list-style-type: none;
+
+
+.navbar ul { 
+    margin: 0 0; 
+    padding: 0px 0px 0px 0px; 
+    display: flex; 
     font-style: Lato;
-    margin: 0;
-    padding-right: 3rem;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height:10%;
-    display: flex;
-    
-}
-.nav li a {
-    display: block;
-    color:#01303F;
-    padding: 1rem 1rem;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 600;
-}
-.nav li a:hover{
-    text-decoration: underline;
-    color:#01303F ;
-}
+    margin-right: -4px;
+} 
 
-.nav-links{
+.navbar ul li { 
+    list-style: none; 
+    padding: 0px 35px 0 10px; 
+    margin-right: -5px;
+
+} 
+
+.navbar ul li a { 
+    text-decoration: none; 
+    font-weight: bold; 
+    color: #01303F; 
+    position: relative; 
+    padding-right: 0rem ;
+    margin-top: 2px;
+
+} 
+
+.navbar ul li a::before { 
+    content: ""; 
+    width: 0px; 
+    height: .13rem; 
+    background: #01303F; 
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+    transition: .5s; 
+} 
+
+.navbar ul li a:hover::before { 
+    width: 100%; 
+    transform: translateX(0%); 
+} 
+
+.navbar-links{
     justify-content: flex-end;
 }
