@@ -3,19 +3,20 @@
     margin:0;
 }
 .bg{
-    background-color: #1a1a1a;
+    background-color: #212324;
 }
 .carousel-inner img{
     background-size: cover;
-    margin-left: 77px;
-    margin-right: 25px !important;
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 65vh !important;
-    width:90% !important;
+    margin-right:25%;
+    margin-left:20%;
+    /* height: 65vh !important; */
+    width:60% !important;
     border-color: rgb(125, 211, 240);
     border-style: solid;
     padding: 8px;
     border-spacing: 3px;
     border-radius: 60px;
 }
+
