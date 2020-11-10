@@ -88,3 +88,11 @@ a.subscribe-button{
 .extra-margin{
     margin-left: -100px;
 }
+.animation li a{
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.animation li a:hover{
+    transform:translate(0, -0.625rem);
+}
