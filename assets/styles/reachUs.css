@@ -5,7 +5,7 @@
   clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
 }
 
-.reach {
+/* .reach {
   max-height: 150px;
   height: 100%;
   font-size: 9rem;
@@ -21,38 +21,61 @@
   white-space: nowrap;
   color: #d4f0fc;
   margin-left: 359px;
-}
+} */
 
-.polygon.greet {
+/* .polygon.greet {
   margin-left: -119px;
   line-height: 0.01rem;
-}
+} */
 
-.container,
+/* .container,
 .container-lg,
 .container-md,
 .container-sm,
 .container-xl {
   padding-top: 50px;
-}
+} */
 
 .icon.ion-ios-email-outline.mail,
 .icon.ion-ios-location-outline.pin,
 .la.la-phone-square.phone {
-  font-size: 3.5rem;
+  
+  font-size: 4.5rem;
   color: #fff;
 }
-
+.la-phone-square{
+  margin-left:10px;
+}
+.ion-ios-location-outline{
+  margin-left:50px;
+}
+.ion-ios-email-outline{
+  margin-left: 0px;;
+}
+.reach-us-content{
+  margin-left: 210px;
+  margin-top: 165px;
+}
 .col.location {
   text-align: center;
   display: flex;
   margin-left: 150px;
 }
-
-.address {
+.phno .text-content{
+  margin-top:20px;
+}
+.address .text-content{
+  margin-top:25px;
+}
+.phno, .address, .mail{
+  margin-top:20px;
+}
+.text-content {
   color: #6ecdfa;
+  
   margin-left: 30px;
   line-height: 2rem;
+  font-size:2rem;
 }
 
 .col.tele {

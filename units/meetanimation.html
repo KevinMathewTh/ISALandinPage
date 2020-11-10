@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <style>
+            html,
+  body {
+    height: 3000px;
+  }
+  
+  .side-button-wrap {
+    position: fixed;
+    top: 20px;
+    right: -100px;
+    width : 100px;
+    transition: right 0.3s;
+  }
+  
+  .side-button-wrap.slide-in {
+    right: 200px;
+  }
+        </style>
+    </head>
+    <body>
+            Scroll down!
+            <div class="side-button-wrap">
+                    <button>Lorem ipsum</button>
+                  </div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(window).on('scroll', function() {
+    var y = jQuery(this).scrollTop();
+    $('.side-button-wrap').toggleClass('slide-in', y > 700 && y < 1300)
+  });
+    </script>
+</html>
+
+  
+  
+  
+  

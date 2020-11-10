@@ -1,82 +1,90 @@
-.footer div{
+.footer{
     background-color: #D4F0FC;
     width: 100%;
 
 }
-.footer ul {
-    display: flex;
-   }
-.social-block{
-    display: inline-block;
-    margin-left: -1.5rem;
+.footer a{
+    text-decoration: none;
+    color:#01303F;
 }
-
-.social-menu ul li {
+.footer ul li,.footer li {
     list-style: none;
-    margin: 1.3rem 0rem -1.2rem 0.31rem;
-    /* margin-top: 0.9375rem; */
-   }
-
-.social-menu ul li .fa {
-    color: #000000;
-    transition: .5s;
-    font-size: 1.5rem;
-   }
-
-.social-menu ul li a {
-    width: 1.5625rem;
+    
+    
+}
+.nav-links-footer{
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    
+    
+}
+.student-chapter{
     text-align: center;
-    transition: 0.5s;
-    transform: translate(0,0rem);
+    margin-top: 30px;
+    padding-bottom: 30px;
+    font-weight: normal;
+    color:#01303F;
+    font-size: 20px;
 }
 
-.social-menu ul li a:hover {
-    transform:translate(0, -0.625rem);
+.nav-links-footer a{
+    color:#01303F;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 620;
+    display: inline-block;
 }
+.footer-top{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-top:30px;
+    padding-bottom:0px;
 
-.isa-vit{
-    font-style: lato; 
-    margin-top: 0rem;
-    /* padding-left:30%; */
-    color: #01303F;
-    font-weight: 500;
-    padding-bottom: 1rem;
 }
+.social-links{
+    width:250px;
+    margin-top: 10px;
+}
+.footer hr{
+    margin-left:auto;
+    margin-right: auto;
+} 
 a.subscribe-button{
     background-color: #01303F;
     color: white;
     text-align: center;
     border-radius: 1.5625rem;
-    padding:0.3125rem 0.9375rem;
-    margin-left: 10%;
+    margin-left: 20%;
     font-size: 0.8rem;
+    font-size: 20px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.subscribe-button{
+    position: relative;
+    top:7px;
+}
+.chapter-name h3{
+    font-size:50px;
 }
 .footer input{
-    border:none;
-    background-color: #c4ecfd;
-    margin-top: 0.125rem;
-    padding: 0rem 0.5rem;
-    width:10.625rem;
-    border-bottom: 0.0625rem solid black;
+    padding: 10px;
+    /* padding-left: 20px; */
+    padding-right: 40px;
+    background-color: #CCEDFC;
+    text-align: left;
+    border: none;
+    border-bottom: 2px solid #01303F;
 }
-.footer nav{
-    width: 100%;
+.input-box-footer{
+    margin-top:10px;
 }
-.bottom-line  li a{
-    color:#01303F;
-    text-decoration: none;
-    font-size: 0.8rem;
-    font-weight: 620;
-    padding:0rem 1.5rem;
-    display: inline-block;
-    
-}
-
-.student-chapter{
-    font-style: lato; 
-    margin-top: 1.5rem;
-    color: #01303F;
-    font-size: 0.8rem;
-    font-weight: 500;
-    padding-bottom: 1rem;
+.extra-margin{
+    margin-left: -100px;
 }
