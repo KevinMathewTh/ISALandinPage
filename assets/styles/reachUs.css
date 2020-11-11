@@ -1,10 +1,19 @@
 .polygon.cut {
-  width: 470px;
-  height: 280px;
+  width: 39.166666666666664vw;
+  height: 45.23424878836833vh;
   background: #1a1a1a;
   clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
 }
 
+.reach-us {
+  width: 45%;
+}
+.rs-content {
+  line-height: 5.169628432956381vh;
+  position: relative;
+  top: 32.31017770597738vh;
+  left: -6.25vw;
+}
 /* .reach {
   max-height: 150px;
   height: 100%;
@@ -39,59 +48,60 @@
 .icon.ion-ios-email-outline.mail,
 .icon.ion-ios-location-outline.pin,
 .la.la-phone-square.phone {
-  
-  font-size: 4.5rem;
+  font-size: 6vw;
   color: #fff;
 }
-.la-phone-square{
-  margin-left:10px;
+.la-phone-square {
+  margin-left: 0.8333333333333334vw;
 }
-.ion-ios-location-outline{
-  margin-left:50px;
+.ion-ios-location-outline {
+  margin-left: 4.166666666666667vw;
 }
-.ion-ios-email-outline{
-  margin-left: 0px;;
+.ion-ios-email-outline {
+  margin-left: 0vw;
 }
-.reach-us-content{
-  margin-left: 210px;
-  margin-top: 165px;
+.reach-us-content {
+  margin-left: 17.5vw;
+  margin-top: 26.65589660743134vh;
 }
 .col.location {
   text-align: center;
   display: flex;
-  margin-left: 150px;
+  margin-left: 12.5vw;
 }
-.phno .text-content{
-  margin-top:20px;
+.phno .text-content {
+  margin-top: 3.231017770597738vh;
 }
-.address .text-content{
-  margin-top:25px;
+.address .text-content {
+  margin-top: 4.038772213247173vh;
 }
-.phno, .address, .mail{
-  margin-top:20px;
+.phno,
+.address,
+.mail {
+  margin-top: 3.231017770597738vh;
 }
 .text-content {
   color: #6ecdfa;
-  
-  margin-left: 30px;
-  line-height: 2rem;
-  font-size:2rem;
+
+  margin-left: 2.5vw;
+  line-height: 5.169628432956381vh;
+  font-size: 2.6666666666666665vw;
 }
 
 .col.tele {
   text-align: center;
   display: flex;
-  margin-left: 100px;
+  margin-left: 8.333333333333334vw;
 }
 
 .col.email {
   text-align: center;
   display: flex;
-  margin-left: 50px;
+  margin-left: 4.166666666666667vw;
 }
 
 .reach-out {
-  line-height: 36px;
+  line-height: 5.815831987075929vh;
 }
 
 /* Added By KevinMathewTh */

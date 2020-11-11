@@ -1,12 +1,10 @@
-
-.intro-container{
-  
-  font-family: 'lato', sans-serif;
+.intro-container {
+  font-family: "lato", sans-serif;
   font-weight: bold;
   position: absolute;
   /* left:500px; */
-  left:-60px;
-  top:1250px;
+  left: -5vw;
+  top: 201.93861066235866vh;
 }
 /* .polygon {
   width: 460px;
@@ -16,35 +14,34 @@
 } */
 
 .hello {
-  max-height: 150px;
+  max-height: 24.232633279483036vh;
   height: 100%;
-  font-size: 20rem;
+  font-size: 26.666666666666668vw;
   font-weight: 700;
   /* overflow: hidden; */
-  line-height: 9rem;
-  margin-left: 36px;
+  line-height: 23.263327948303715vh;
+  margin-left: 3vw;
   color: #6ecdfa;
 }
 
 .visitor {
-  font-size: 6.5rem;
+  font-size: 8.666666666666666vw;
   white-space: nowrap;
   color: #d4f0fc;
-  margin-top:25px;
-  margin-left: 450px;
+  margin-top: 4.038772213247173vh;
+  margin-left: 37.5vw;
 }
 .message {
   color: #fff;
-  padding: 15px;
-  font-size: 2.2rem;
+  padding: 1.25vw 2.4232633279483036vh;
+  font-size: 2.9333333333333336vw;
   text-align: left;
   position: relative;
-  left:-80px;
+  left: -6.666666666666667vw;
   font-weight: normal;
-  width:95%;
+  width: 95%;
 }
-.col{
-  
+.col {
 }
 /* .polygon.greet {
   margin-left: -266px;
