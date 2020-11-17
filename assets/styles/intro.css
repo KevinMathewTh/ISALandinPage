@@ -1,10 +1,12 @@
-.intro-container {
-  font-family: "lato", sans-serif;
+
+.intro-container{
+  
+  font-family: 'lato', sans-serif;
   font-weight: bold;
   position: absolute;
   /* left:500px; */
-  left: -5vw;
-  top: 201.93861066235866vh;
+  left:-60px;
+  top:1250px;
 }
 /* .polygon {
   width: 460px;
@@ -14,34 +16,35 @@
 } */
 
 .hello {
-  max-height: 24.232633279483036vh;
+  max-height: 150px;
   height: 100%;
-  font-size: 26.666666666666668vw;
+  font-size: 20rem;
   font-weight: 700;
   /* overflow: hidden; */
-  line-height: 23.263327948303715vh;
-  margin-left: 3vw;
+  line-height: 9rem;
+  margin-left:  1.875vw;
   color: #6ecdfa;
 }
 
 .visitor {
-  font-size: 8.666666666666666vw;
+  font-size: 6.5rem;
   white-space: nowrap;
   color: #d4f0fc;
-  margin-top: 4.038772213247173vh;
-  margin-left: 37.5vw;
+  margin-top:2.48vh;
+  margin-left: 23.4375vw;
 }
 .message {
   color: #fff;
-  padding: 1.25vw 2.4232633279483036vh;
-  font-size: 2.9333333333333336vw;
+  padding: 15px;
+  font-size: 2.2rem;
   text-align: left;
   position: relative;
-  left: -6.666666666666667vw;
+  left:-4.16vw;
   font-weight: normal;
-  width: 95%;
+  width:95%;
 }
-.col {
+.col{
+  
 }
 /* .polygon.greet {
   margin-left: -266px;
@@ -49,3 +52,30 @@
 }
 
  */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 1351px) { 
+    
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1367px) {
+  .message{
+    font-size:1.5rem;
+  } 
+  .hello{
+    font-size: 13.8rem;
+    margin-left:3.5vw;
+  }
+  .visitor{
+    font-size: 4.554rem;
+    margin-top:0vh;
+  }
+    
+}

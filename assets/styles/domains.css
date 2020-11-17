@@ -1,22 +1,23 @@
-body {
-  background-color: #212324;
-  font-family: "lato", sans-serif;
-  font-weight: bold;
+body{
+    background-color:#212324;
+    font-family: "lato", sans-serif;
+    font-weight: bold;
 }
 
-.fa-edit {
-  font-size: 5.333333333333333vw;
+.fa-edit{
+    font-size: 4rem;
+
 }
 
-.hide {
-  color: #212324;
+.hide{
+    color:#212324;
 }
 
-.a-1 {
-  color: #6ecdfa;
-  text-align: center;
-  font-size: 8.666666666666666vw;
-  justify-content: top;
+.a-1{
+    color:#6ECDFA;
+    text-align: center;
+    font-size: 6.5rem;
+    justify-content: top;
 }
 
 /* .c-1{
@@ -58,26 +59,28 @@ body {
     height:100px;
     width:100px;
 } */
-.margin-top {
-  margin-top: 24.394184168012924vh;
+.margin-top{
+    margin-top:151px;
 }
-.domains-container {
-  width: 100%;
+.domains-container{
+    width:100%;
+    
 }
-.domains-container img {
-  height: 21.001615508885298vh;
-  width: 10.833333333333334vw;
-  margin: 21.001615508885298vh 10.833333333333334vw;
-  margin-bottom: 3.231017770597738vh;
-  /* background-color: green; */
+.domains-container img{
+    height:130px;
+    width:130px;
+    margin:100px;
+    margin-bottom: 20px;
+    /* background-color: green; */
+    
 }
-.domain-bundle h5 {
-  color: white;
-  font-size: 2.5vw;
-  font-weight: bold;
-  color: #bbebff;
-  text-align: center;
+.domain-bundle h5{
+    color:white;
+    font-size:30px;
+    font-weight: bold;
+    color:#BBEBFF;
+    text-align: center;
 }
-.domain-bundle {
-  /* background-color: grey; */
+.domain-bundle{
+    /* background-color: grey; */
 }

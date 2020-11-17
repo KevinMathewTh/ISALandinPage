@@ -1,6 +1,11 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <style>
+            body{
+                font-size:16px;
+            }
+        </style>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,11 +18,10 @@
 
         <!--load all styles -->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css" />
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="assets/fonts/ionicons.min.css" />
-        <link rel="stylesheet" href="assets/fontawesome/fonts/ionicons.min.css" />
-        <link rel="stylesheet" href="assets/fontawesome/fonts/line-awesome.min.css" />
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+        <link rel="stylesheet" href="assets/fontawesome/fonts/ionicons.min.css">
+        <link rel="stylesheet" href="assets/fontawesome/fonts/line-awesome.min.css">
         
         <link rel="stylesheet" href="assets/styles/navbar.css">
         <link rel="stylesheet" href="assets/styles/intro.css"> 
@@ -36,7 +40,7 @@
     <body>
             <!-- Navbar starts Here -->
         <div id="navbar" class="navbar">                      
-            <div class="container">
+            
                 <div class="img-log"><img src="assets/images/ISA-logo.png"></div>
     
                 <ul class="nav-links">
@@ -45,6 +49,10 @@
                     <li><a href="units/meetTheTeam.html">Team</a></li>
                     <li><a href="">Blog</a></li>
                     <li><a class="topic" href="units/reachUs.html">Contact us</a></li>
+                    
+                    
+                
+                    
                 </ul>
             </div>
         </div>
@@ -103,40 +111,68 @@
             </div>
 
         <!--Carousel starts here-->
-        <div class="bg">
-                <div class="center">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                    <img class="d-block w-100" src="./assets/images/bigb 2.png" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/images/bigb 2.png" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/images/bigb 2.png" alt="Third slide">
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/images/bigb 2.png" alt="Fourth slide">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-                </div>
-                </div>
+        <!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-2" data-slide-to="1"></li>
+          <li data-target="#carousel-example-2" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+        <!--Slides-->
+        <div class="container">
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <div class="view">
+              <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+                alt="First slide">
+              <div class="mask rgba-black-light"></div>
             </div>
+            <div class="carousel-caption">
+              <h3 class="h3-responsive">Light mask</h3>
+              <p>First text</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+              <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
+                alt="Second slide">
+              <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-caption">
+              <h3 class="h3-responsive">Strong mask</h3>
+              <p>Secondary text</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+              <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+                alt="Third slide">
+              <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+              <h3 class="h3-responsive">Slight mask</h3>
+              <p>Third text</p>
+            </div>
+          </div>
+        </div>
+        <!--/.Slides-->
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+      </div>
+    </div>
+      <!--/.Carousel Wrapper--> 
             <!--Carousel ends here-->
     <!--Domains start here-->
     <div class="margin-top">
@@ -187,23 +223,25 @@
 </div>
 
     <!--Domains end here-->
-    <!-- Meet the team -->
-    <div class="d-flex">
-        <div class="meet-the-team">
-            <div id="meetTheTeam" class="meet-the-team-content">
-                <div class="row">
-                    <div class="col">
-                        <p class="meet">Meet</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <p class="team">the team</p>
-                    </div>
-                </div>
+   <!-- Meet the team -->
+   <div class="d-flex">
+       <div class="meet-the-team">
+        <div id="meetTheTeam" class="meet-the-team-content">
+        <div class="row">
+            <div class="col">
+                <p class="meet">Meet</p>
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <p class="team">the team</p>
+            </div>
+        </div>
+        
+       </div>
+    </div>
        <div class="board-team" >
+           
             <div class="board-team-content d-flex justify-content-center">
                 <div class="parallelogram" ></div>
                 <div class="names">
@@ -219,7 +257,20 @@
             </div>
             <div class="board-team-content d-flex justify-content-center">
                 <div class="parallelogram" ></div>
-                <div class="names">
+                <div id="secound-name" class="names">
+                    <h1>Dr. S Vivekanandan</h1>
+                    <h6 class="position">Faculty Co-ordinator</h6>
+                    <h4></h4>
+                    <h4>Loren Ipsum Loren Ipsum</h4>
+                    <h4>Loren Ipsum Loren Ipsum</h4>
+                    <h4>Loren Ipsum Loren Ipsum</h4>
+                    <h4>Loren Ipsum Loren Ipsum</h4>
+                </div>
+                
+            </div>
+            <!-- <div class="board-team-content d-flex justify-content-center">
+                <div class="parallelogram" ></div>
+                <div id="third-name" class="names">
                     <h1>Dr. S Vivekanandan</h1>
                     <h6 class="position">Faculty Co-ordinator</h6>
                     <h4></h4>
@@ -292,9 +343,9 @@
                     <h4>Loren Ipsum Loren Ipsum</h4>
                     <h4>Loren Ipsum Loren Ipsum</h4>
                     <h4>Loren Ipsum Loren Ipsum</h4>
-                </div>
+                </div> -->
                 
-            </div>
+            <!-- </div>
             <div class="board-team-content d-flex justify-content-center">
                 <div class="parallelogram" ></div>
                 <div class="names">
@@ -321,10 +372,11 @@
                 </div>
                 
             </div>
+        
             <div class="board-team-content d-flex justify-content-center">
                 <div class="parallelogram" ></div>
                 <div class="names">
-                    <h1>Dr. S Vivekanandan</h1>
+                    <h1>Sourav</h1>
                     <h6 class="position">Faculty Co-ordinator</h6>
                     <h4></h4>
                     <h4>Loren Ipsum Loren Ipsum</h4>
@@ -337,7 +389,7 @@
             <div class="board-team-content d-flex justify-content-center">
                 <div class="parallelogram" ></div>
                 <div class="names">
-                    <h1>Dr. S Vivekanandan</h1>
+                    <h1>Kevin Mathew Thomas</h1>
                     <h6 class="position">Faculty Co-ordinator</h6>
                     <h4></h4>
                     <h4>Loren Ipsum Loren Ipsum</h4>
@@ -346,20 +398,7 @@
                     <h4>Loren Ipsum Loren Ipsum</h4>
                 </div>
                 
-            </div>
-            <div class="board-team-content d-flex justify-content-center">
-                <div class="parallelogram" ></div>
-                <div class="names">
-                    <h1>Dr. S Vivekanandan</h1>
-                    <h6 class="position">Faculty Co-ordinator</h6>
-                    <h4></h4>
-                    <h4>Loren Ipsum Loren Ipsum</h4>
-                    <h4>Loren Ipsum Loren Ipsum</h4>
-                    <h4>Loren Ipsum Loren Ipsum</h4>
-                    <h4>Loren Ipsum Loren Ipsum</h4>
-                </div>
-                
-            </div>
+            </div> -->
        </div>
    </div>
 
@@ -382,8 +421,8 @@
                 </div>
             </div> -->
             <div class="d-flex">
-                <div class="reach-us">
-                <div id="meetTheTeam" class="rs-content">
+                <div class="meet-the-team">
+                <div id="meetTheTeam" class="meet-the-team-content">
                 <div class="row">
                     <div class="col">
                         <p class="meet" >Reach</p>
@@ -391,7 +430,7 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                        <p class="team" style="text-align: right; font-size:13.333333333333334vw">us</p>
+                        <p class="team" style="text-align: right; font-size:10rem">us</p>
                     </div>
                 </div>
                 
@@ -414,13 +453,11 @@
                 <div class="footer-top">
                 <ul>
                 <div class="d-flex justify-content-between">
-                <div class="animation">
                 <div class="social-links d-flex justify-content-between">
                   <li><a href="https://www.facebook.com/isavitchapter/" target="_blank" class="social-block"><img src="assets\images\facebook (3).png"></a></li>
                   <li><a href="https://www.instagram.com/isa_vit_/?hl=en" target="_blank" class="social-block"><img class="img2" src="assets\images\instagram.png"></a></li>
                   <li><a href="https://www.linkedin.com/company/international-society-of-automation-isa-vit/" target="_blank" class="social-block"><img class="img3" src="assets\images\linkedin.png"></a></li>
                   <li><a href="https://github.com/isa-vit" target="_blank" class="social-block"><img class="img4" src="assets\images\github.png"></a></li>
-                </div>
                 </div>
                   <div class="chapter-name d-flex justify-content-center">
                   <li class="isa-vit"><h3>ISA-VIT</h3></li>
@@ -434,7 +471,6 @@
             </div>
             <hr color="#84d6fa" style="width:92%; height:0.1rem">
             <div class="extra-margin">
-            <div class="animation"> 
             <div class="nav-links-footer d-flex justify-content-between">
                     
                     <li><a href="units/intro.html">About</a></li>
@@ -444,7 +480,6 @@
                     <li><a  href="units/reachUs.html">Contact</a></li>    
                 
             </div>
-            </div>   
             <div class="student-chapter">ISA-VIT Student Chapter</div>
         </div>
     </div>
@@ -488,24 +523,25 @@
         
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script>
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
     // alert(currentScrollPos);
     
-    if(currentScrollPos>4500 && currentScrollPos<12383)
-    {
+    // if(currentScrollPos>3200 && currentScrollPos<8900)
+    // {
         
-        $('#meetTheTeam').addClass('stick');
-        
-        
-    }
-    else{
-        $('#meetTheTeam').removeClass('stick');
+    //     $('#meetTheTeam').addClass('stick');
         
         
-    }
+    // }
+    // else{
+    //     $('#meetTheTeam').removeClass('stick');
+    //     $('#animate-removal').addClass('d-none');
+        
+    // }
     
 
     
