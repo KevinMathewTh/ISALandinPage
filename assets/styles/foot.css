@@ -1,90 +1,114 @@
-.footer{
-    background-color: #D4F0FC;
-    width: 100%;
-
+.footer {
+  background-color: #d4f0fc;
+  width: 100%;
 }
-.footer a{
-    text-decoration: none;
-    color:#01303F;
+.footer a {
+  text-decoration: none;
+  color: #01303f;
 }
-.footer ul li,.footer li {
-    list-style: none;
-    
-    
+.footer ul li,
+.footer li {
+  list-style: none;
 }
-.nav-links-footer{
-    width:400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    
-    
+.nav-links-footer {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
 }
-.student-chapter{
-    text-align: center;
-    margin-top: 30px;
-    padding-bottom: 30px;
-    font-weight: normal;
-    color:#01303F;
-    font-size: 20px;
+.student-chapter {
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  font-weight: normal;
+  color: #01303f;
+  font-size: 20px;
 }
 
-.nav-links-footer a{
-    color:#01303F;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 620;
-    display: inline-block;
+.nav-links-footer a {
+  color: #01303f;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 620;
+  display: inline-block;
 }
-.footer-top{
-    width:80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    padding-top:30px;
-    padding-bottom:0px;
+.footer-top {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+.social-links {
+  width: 250px;
+  margin-top: 10px;
+}
+.footer hr {
+  margin-left: auto;
+  margin-right: auto;
+}
+a.subscribe-button {
+  background-color: #01303f;
+  color: white;
+  text-align: center;
+  border-radius: 1.5625rem;
+  margin-left: 20%;
+  font-size: 0.8rem;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.subscribe-button {
+  position: relative;
+  top: 7px;
+}
+.chapter-name h3 {
+  font-size: 50px;
+}
+.footer input {
+  padding: 10px;
+  /* padding-left: 20px; */
+  padding-right: 40px;
+  background-color: #ccedfc;
+  text-align: left;
+  border: none;
+  border-bottom: 2px solid #01303f;
+}
+.input-box-footer {
+  margin-top: 10px;
+}
+.extra-margin {
+  margin-left: -100px;
+}
 
-}
-.social-links{
-    width:250px;
+@media (min-width: 768px) and (max-width: 992px) {
+  .social-links {
+    width: 250px;
     margin-top: 10px;
-}
-.footer hr{
-    margin-left:auto;
-    margin-right: auto;
-} 
-a.subscribe-button{
-    background-color: #01303F;
+    margin-left: -100px;
+    margin-right: 20px;
+  }
+  .chapter-name h3 {
+    font-size: 30px;
+  }
+  .subscribe-button {
+    position: relative;
+    top: 7px;
+  }
+  a.subscribe-button {
+    background-color: #01303f;
     color: white;
     text-align: center;
     border-radius: 1.5625rem;
     margin-left: 20%;
     font-size: 0.8rem;
-    font-size: 20px;
-    padding-left:30px;
-    padding-right:30px;
-    padding-top:10px;
-    padding-bottom:10px;
-}
-.subscribe-button{
-    position: relative;
-    top:7px;
-}
-.chapter-name h3{
-    font-size:50px;
-}
-.footer input{
-    padding: 10px;
-    /* padding-left: 20px; */
-    padding-right: 40px;
-    background-color: #CCEDFC;
-    text-align: left;
-    border: none;
-    border-bottom: 2px solid #01303F;
-}
-.input-box-footer{
-    margin-top:10px;
-}
-.extra-margin{
-    margin-left: -100px;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 }

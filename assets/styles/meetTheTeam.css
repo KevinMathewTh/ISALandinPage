@@ -17,29 +17,27 @@
     font-family:"Roboto",sans-serif;
     color:#6ECDFA;
 } */
-.board-team-content{
-    position: relative;
-    top:120px;
-    left:-70px;
+
+.board-team-content {
+  position: relative;
+  top: 120px;
+  left: 40px;
 }
-.board-team{
- width:55%;
- 
+.board-team {
+  width: 55%;
 }
-.meet-the-team{
-    width:45%;
+.meet-the-team {
+  width: 45%;
 }
-.meet-the-team-content
-{
-    line-height: 2rem;
-    position: relative;
-    top:200px;
-    left:-75px;
-    
+.meet-the-team-content {
+  line-height: 2rem;
+  position: relative;
+  top: 200px;
+  left: -75px;
 }
 
-.meet{
-    max-height: 150px;
+.meet {
+  max-height: 150px;
   height: 100%;
   font-size: 20rem;
   font-weight: 700;
@@ -47,113 +45,188 @@
   line-height: 9rem;
   margin-left: 36px;
   color: #6ecdfa;
-  
 }
 
-.team{
-    font-size: 6.5rem;
-    white-space: nowrap;
-    color: #d4f0fc;
-    margin-top:75px;
-    margin-left: 18.22vw;
+.team {
+  font-size: 6.5rem;
+  white-space: nowrap;
+  color: #d4f0fc;
+  margin-top: 75px;
+  margin-left: 18.22vw;
 }
 
-
-.parallelogram{
-    width:275px;
-    height:400px;
-    -webkit-transform:skew(-20deg);
-    -moz-transform:skew(-20deg);
-    -o-transform:skew(-20deg);
-    background:#d4f0fc;
-    margin-left:0px;
-    margin-bottom:100px;
-    margin-right: 120px;
+.parallelogram {
+  width: 275px;
+  height: 400px;
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
+  background: #d4f0fc;
+  margin-left: 0px;
+  margin-bottom: 100px;
+  margin-right: 70px;
 }
-.shape-parallelogram{
-    width:225px;
-    height:400px;
-    -webkit-transform:skew(-20deg);
-    -moz-transform:skew(-20deg);
-    -o-transform:skew(-20deg);
-    background:#d4f0fc;
-    position: relative;
-    left:170px;
-    top:-60px;
-    background-color: #212324;
-    
+.shape-parallelogram {
+  width: 225px;
+  height: 400px;
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
+  background: #d4f0fc;
+  position: relative;
+  left: 170px;
+  top: -60px;
+  background-color: #212324;
 }
 
-.names h1{
-    margin-top: 2.77vh;
-    color:#6ECDFA;
-    text-align:left;
-    font-size: 50px;
+.names h1 {
+  margin-top: 2.77vh;
+  color: #6ecdfa;
+  text-align: left;
+  font-size: 50px;
 }
-.names h6{
-    text-align: right;
-    font-size:25px;
-    color:#ffffff;
+.names h6 {
+  text-align: right;
+  font-size: 25px;
+  color: #ffffff;
 }
-#tile1
-{
-    display:flex;
+#tile1 {
+  display: flex;
 }
-.names{
-    
-    text-align:left; 
-    margin-bottom:180px;
-    transition: left 1s;
-    
+.names {
+  text-align: left;
+  margin-bottom: 180px;
+  transition: left 1s;
 }
 
-.names h4{
-    color:#ffffff;
-    text-align: right;
-    font-weight: normal;
-    font-size:35px;
-   
+.names h4 {
+  color: #ffffff;
+  text-align: right;
+  font-weight: normal;
+  font-size: 35px;
 }
-.stick{
-    position: fixed !important;
+.stick {
+  position: fixed !important;
 }
-.abstick{
-    position: absolute !important;
-    top:8500px;
+.abstick {
+  position: absolute !important;
+  top: 8500px;
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
+@media (min-width: 576px) and (max-width: 768px) {
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  }
+@media (min-width: 768px) and (max-width: 991px) {
+  .parallelogram {
+    width: 125px;
+    height: 250px;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    background: #d4f0fc;
+    margin-left: 0px;
+    margin-bottom: 100px;
+    margin-right: 70px;
+  }
+  .names h1 {
+    font-size: 1.5rem;
+    margin-top: 4vh;
+  }
+  .names h4 {
+    font-size: 1rem;
+  }
+  .meet {
+    font-size: 8.8rem;
+    margin-left: 5.5vw;
+  }
+  .team {
+    font-size: 2.5rem;
+    margin-top: 0.5vh;
+  }
+  .board-team-content {
+    left: -0.5rem;
+  }
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (max-width: 1351px) { 
-    
-    
+@media (min-width: 900px) and (max-width: 1300px) {
+  .parallelogram {
+    width: 175px;
+    height: 300px;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    background: #d4f0fc;
+    margin-left: 0px;
+    margin-bottom: 100px;
+    margin-right: 70px;
+  }
+  .names h1 {
+    font-size: 2rem;
+    margin-top: 4vh;
+  }
+  .names h4 {
+    font-size: 1.5rem;
+  }
+  .meet {
+    font-size: 11.8rem;
+    margin-left: 2vw;
+  }
+  .team {
+    font-size: 3.5rem;
+    margin-top: 1.5vh;
+  }
+  .board-team-content {
+    left: -1.5rem;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1367px) {
+  .parallelogram {
+    width: 175px;
+    height: 300px;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    background: #d4f0fc;
+    margin-left: 0px;
+    margin-bottom: 100px;
+    margin-right: 70px;
+  }
+  .names h1 {
+    font-size: 2rem;
+    margin-top: 4vh;
+  }
+  .names h4 {
+    font-size: 1.5rem;
+  }
+  .meet {
+    font-size: 13.8rem;
+    margin-left: 2vw;
+  }
+  .team {
+    font-size: 3.5rem;
+    margin-top: 7vh;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (max-width: 1367px) {
-    .names h1{
-        font-size:2.5rem;
-        margin-top: 4vh;
-    }
-    .names h4{
-    font-size:2rem;
-  } 
-  .meet{
-    font-size: 13.8rem;
-    margin-left:3.5vw;
+@media (min-width: 1367px) {
+  .names h1 {
+    font-size: 2.5rem;
+    margin-top: 4vh;
   }
-  .team{
-    font-size: 4.554rem;
-    margin-top:3vh;
-    
+  .names h4 {
+    font-size: 2rem;
   }
-  
-    
+  .meet {
+    font-size: 20rem;
+    margin-left: 3.5vw;
+  }
+  .team {
+    font-size: 6.5rem;
+    margin-top: 12vh;
+  }
 }
-
-

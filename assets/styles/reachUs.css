@@ -39,69 +39,183 @@
 .icon.ion-ios-email-outline.mail,
 .icon.ion-ios-location-outline.pin,
 .la.la-phone-square.phone {
-  
   font-size: 4.5rem;
   color: #fff;
 }
-.la-phone-square{
-  margin-left:0.52;
+.la-phone-square {
+  margin-left: 0.52;
 }
-.ion-ios-location-outline{
-  margin-left:2.60;
+.ion-ios-location-outline {
+  margin-left: 2.6;
 }
-.ion-ios-email-outline{
+.ion-ios-email-outline {
   margin-left: 0px;
 }
-.reach-us-content{
-  margin-left: 10.93vw;
+.reach-us-content {
+  margin-left: 13vw;
   margin-top: 16.38vh;
 }
 .col.location {
   text-align: center;
   display: flex;
-  margin-left:7.81vw;
+  margin-left: 7.81vw;
 }
-.phno .text-content{
-  margin-top:1.98vh;
+.phno .text-content {
+  margin-top: 1.98vh;
 }
-.address .text-content{
-  margin-top:2.48vh;
+.address .text-content {
+  margin-top: 2.48vh;
 }
-.phno, .address, .mail{
-  margin-top:1.98vh;
+.phno,
+.address,
+.mail {
+  margin-top: 1.98vh;
 }
 .text-content {
   color: #6ecdfa;
-  
+
   margin-left: 1.56vw;
   line-height: 2rem;
-  font-size:2rem;
+  font-size: 2rem;
 }
 
 .col.tele {
   text-align: center;
   display: flex;
-  margin-left: 5.20vw;
+  margin-left: 5.2vw;
 }
 
 .col.email {
   text-align: center;
   display: flex;
-  margin-left: 2.60vw;
+  margin-left: 2.6vw;
 }
 
 .reach-out {
   line-height: 3.57vh;
 }
+
+@media (min-width: 576px) and (max-width: 768px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) and (orientation=landscape) {
+  .phno,
+  .address,
+  .mail {
+    margin-top: 0.5vh;
+  }
+  .icon.ion-ios-email-outline.mail,
+  .icon.ion-ios-location-outline.pin,
+  .la.la-phone-square.phone {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  .phno .text-content {
+    margin-top: 1vh;
+  }
+  .mail .text-content {
+    margin-top: 1.7vh;
+  }
+  .address .text-content {
+    margin-top: 3vh;
+  }
+  .reach-us-content {
+    margin-left: 13vw;
+    margin-top: 8.38vh;
+  }
+  .text-content {
+    color: #6ecdfa;
+    margin-left: 1.56vw;
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .phno,
+  .address,
+  .mail {
+    margin-top: 0.5vh;
+  }
+  .icon.ion-ios-email-outline.mail,
+  .icon.ion-ios-location-outline.pin,
+  .la.la-phone-square.phone {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  .phno .text-content {
+    margin-top: 1vh;
+  }
+  .mail .text-content {
+    margin-top: 1.7vh;
+  }
+  .address .text-content {
+    margin-top: 1vh;
+  }
+  .reach-us-content {
+    margin-left: 13vw;
+    margin-top: 17.38vh;
+  }
+  .text-content {
+    color: #6ecdfa;
+    margin-left: 1.56vw;
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+  .reacher .meet {
+    margin-top: -8rem;
+  }
+}
+
+/*Large devices (desktop and laptop)*/
+@media (min-width: 992px) and (max-width: 1300px) {
+  .phno,
+  .address,
+  .mail {
+    margin-top: 0.5vh;
+  }
+  .icon.ion-ios-email-outline.mail,
+  .icon.ion-ios-location-outline.pin,
+  .la.la-phone-square.phone {
+    font-size: 3.5rem;
+    color: #fff;
+  }
+  .phno .text-content {
+    margin-top: 1vh;
+  }
+  .mail .text-content {
+    margin-top: 1.7vh;
+  }
+  .address .text-content {
+    margin-top: 1vh;
+  }
+  .reach-us-content {
+    margin-left: 13vw;
+    margin-top: 17.38vh;
+  }
+  .text-content {
+    color: #6ecdfa;
+    margin-left: 1.56vw;
+    line-height: 2rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1367px) {
+}
 /* Extra large devices (large desktops, 1200px and up) */
-@media (max-width: 1367px) {
-  .ion-ios-email-outline{
+@media (min-width: 1367px) {
+  .ion-ios-email-outline {
     margin-top: 0px;
   }
-  .reach-us-content{
-    
+  .reach-us-content {
     margin-top: 21.38vh;
   }
-  
 }
+/* Added By KevinMathewTh */
+/* Added By KevinMathewTh */
+/* Added By KevinMathewTh */
+/* Added By KevinMathewTh */
+/* Added By KevinMathewTh */
+/* Added By KevinMathewTh */
 /* Added By KevinMathewTh */

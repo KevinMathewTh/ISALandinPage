@@ -1,12 +1,10 @@
-
-.intro-container{
-  
-  font-family: 'lato', sans-serif;
+.intro-container {
+  font-family: "lato", sans-serif;
   font-weight: bold;
   position: absolute;
   /* left:500px; */
-  left:-60px;
-  top:1250px;
+  left: -60px;
+  top: 1250px;
 }
 /* .polygon {
   width: 460px;
@@ -22,7 +20,7 @@
   font-weight: 700;
   /* overflow: hidden; */
   line-height: 9rem;
-  margin-left:  1.875vw;
+  margin-left: 1.875vw;
   color: #6ecdfa;
 }
 
@@ -30,7 +28,7 @@
   font-size: 6.5rem;
   white-space: nowrap;
   color: #d4f0fc;
-  margin-top:2.48vh;
+  margin-top: 2.48vh;
   margin-left: 23.4375vw;
 }
 .message {
@@ -39,12 +37,11 @@
   font-size: 2.2rem;
   text-align: left;
   position: relative;
-  left:-4.16vw;
+  left: -4.16vw;
   font-weight: normal;
-  width:95%;
+  width: 95%;
 }
-.col{
-  
+.col {
 }
 /* .polygon.greet {
   margin-left: -266px;
@@ -53,29 +50,62 @@
 
  */
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
+@media (min-width: 576px) and (max-width: 768px) {
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  }
+@media (min-width: 768px) and (max-width: 991px) {
+  .message {
+    font-size: 1.5rem;
+    left: -0.5rem;
+  }
+  .hello {
+    font-size: 8.8rem;
+  }
+  .visitor {
+    font-size: 2.5rem;
+    margin-top: 0.4vh;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+  .message {
+    font-size: 1.5rem;
+    left: 0.5rem;
+  }
+  .hello {
+    font-size: 11.8rem;
+  }
+  .visitor {
+    font-size: 3.5rem;
+    margin-top: 0.48vh;
+  }
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (max-width: 1351px) { 
-    
-    
+@media (min-width: 1300px) and (max-width: 1367px) {
+  .message {
+    font-size: 1.5rem;
+    left: -2.5rem;
+  }
+  .hello {
+    font-size: 13.8rem;
+  }
+  .visitor {
+    font-size: 3.5rem;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (max-width: 1367px) {
-  .message{
-    font-size:1.5rem;
-  } 
-  .hello{
-    font-size: 13.8rem;
-    margin-left:3.5vw;
+@media (min-width: 1367px) {
+  .message {
+    font-size: 2rem;
+    left: 2rem;
   }
-  .visitor{
-    font-size: 4.554rem;
-    margin-top:0vh;
+  .hello {
+    font-size: 20rem;
   }
-    
+  .visitor {
+    font-size: 6.5rem;
+  }
 }
