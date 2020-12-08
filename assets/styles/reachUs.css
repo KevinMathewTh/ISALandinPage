@@ -95,10 +95,86 @@
   line-height: 3.57vh;
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (max-width: 600px) {
+  .team-us {
+    font-size: 2.5rem;
+    margin-left: 300px;
+    margin-top: -20px;
+  }
+  .text-content {
+    font-size: 1rem;
+  }
+  .icon.ion-ios-email-outline.mail,
+  .icon.ion-ios-location-outline.pin,
+  .la.la-phone-square.phone {
+    font-size: 2rem;
+    color: #fff;
+  }
+  .icon.ion-ios-email-outline.mail {
+    margin-top: -5px;
+    margin-left:-3px;
+  }
+  .la.la-phone-square.phone {
+    margin-top: 12px;
+    margin-left: -5px;
+  }
+  .icon.ion-ios-location-outline.pin {
+    margin-top: 7px;
+  }
+  .reacher {
+    margin-top: -100px;
+  }
+  .reach-us-content {
+    margin-top:300px;
+    margin-left:-100px;
+    border: 1px solid #6ecdfa;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width:600px;
+    padding-left:30px;
+    text-align: right;
+  }
+  .phno{
+    margin-top:-20px;
+  }
+  .mail
+  {
+    margin-top:-5px;
+  }
 }
 
-/* Medium devices (tablets, 768px and up) */
+
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .team-us {
+    font-size: 2.5rem;
+    margin-left: 300px;
+  }
+  .text-content {
+    font-size: 1rem;
+  }
+  .icon.ion-ios-email-outline.mail,
+  .icon.ion-ios-location-outline.pin,
+  .la.la-phone-square.phone {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  .la.la-phone-square.phone {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  .icon.ion-ios-email-outline.mail {
+    margin-top: -12px;
+  }
+  .la.la-phone-square.phone {
+    margin-top: 12px;
+  }
+  .icon.ion-ios-location-outline.pin {
+    margin-top: 5px;
+  }
+  .reacher {
+    margin-top: -100px;
+  }/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) and (orientation=landscape) {
   .phno,
   .address,
@@ -109,60 +185,7 @@
   .icon.ion-ios-location-outline.pin,
   .la.la-phone-square.phone {
     font-size: 2.5rem;
-    color: #fff;
-  }
-  .phno .text-content {
-    margin-top: 1vh;
-  }
-  .mail .text-content {
-    margin-top: 1.7vh;
-  }
-  .address .text-content {
-    margin-top: 3vh;
-  }
-  .reach-us-content {
-    margin-left: 13vw;
-    margin-top: 8.38vh;
-  }
-  .text-content {
-    color: #6ecdfa;
-    margin-left: 1.56vw;
-    line-height: 1.5rem;
-    font-size: 1rem;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .phno,
-  .address,
-  .mail {
-    margin-top: 0.5vh;
-  }
-  .icon.ion-ios-email-outline.mail,
-  .icon.ion-ios-location-outline.pin,
-  .la.la-phone-square.phone {
-    font-size: 2.5rem;
-    color: #fff;
-  }
-  .phno .text-content {
-    margin-top: 1vh;
-  }
-  .mail .text-content {
-    margin-top: 1.7vh;
-  }
-  .address .text-content {
-    margin-top: 1vh;
-  }
-  .reach-us-content {
-    margin-left: 13vw;
-    margin-top: 17.38vh;
-  }
-  .text-content {
-    color: #6ecdfa;
-    margin-left: 1.56vw;
-    line-height: 1.5rem;
-    font-size: 1rem;
-  }
-  .reacher .meet {
+    color:i#fff;
     margin-top: -8rem;
   }
 }

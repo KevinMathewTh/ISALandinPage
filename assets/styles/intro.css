@@ -41,16 +41,41 @@
   font-weight: normal;
   width: 95%;
 }
-.col {
-}
 /* .polygon.greet {
   margin-left: -266px;
   line-height: 0.01rem;
+} */
+
+@media (max-width: 600px) {
+  .message {
+    font-size: 1rem;
+    left: 3rem;
+    padding: 20px 40px;
+    margin-bottom: 2rem;
+  }
+  .hello {
+    font-size: 8.8rem;
+  }
+  .visitor {
+    font-size: 2.5rem;
+    margin-top: 0.4vh;
+    margin-left: 55vw;
+  }
 }
 
- */
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 600px) and (max-width: 768px) {
+  .message {
+    font-size: 1.25rem;
+    left: 1rem;
+  }
+  .hello {
+    font-size: 8.8rem;
+  }
+  .visitor {
+    font-size: 2.5rem;
+    margin-top: 0.4vh;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */

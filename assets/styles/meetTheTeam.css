@@ -113,8 +113,76 @@
   top: 8500px;
 }
 
+@media (max-width: 600px) {
+  .parallelogram {
+    width: 125px;
+    height: 175px;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    background: #d4f0fc;
+    margin-left: 0px;
+    margin-bottom: 100px;
+    margin-right: 40px;
+  }
+  .names h1 {
+    font-size: 1rem;
+    margin-top: 8vh;
+  }
+  .names h4 {
+    font-size: 0.5rem;
+  }
+  .names h6 {
+    font-size: 0.65rem;
+  }
+  .meet {
+    font-size: 5.8rem;
+    margin-left: 16vw;
+  }
+  .team {
+    font-size: 2rem;
+    margin-top: -1.5vh;
+    margin-left: 9rem;
+  }
+  .board-team-content {
+    left: -0.75rem;
+  }
+}
+
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 600px) and (max-width: 768px) {
+  .parallelogram {
+    width: 125px;
+    height: 225px;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    background: #d4f0fc;
+    margin-left: 5px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+  }
+  .names h1 {
+    font-size: 1.5rem;
+    margin-top: 8vh;
+  }
+  .names h4 {
+    font-size: 1rem;
+  }
+  .names h6 {
+    font-size: 1.25rem;
+  }
+  .meet {
+    font-size: 8.8rem;
+    margin-left: 5.5vw;
+  }
+  .team {
+    font-size: 2.5rem;
+    margin-top: 0.5vh;
+  }
+  .board-team-content {
+    left: -0.5rem;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
