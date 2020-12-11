@@ -127,7 +127,6 @@
   }
   .names h1 {
     font-size: 1rem;
-    margin-top: 8vh;
   }
   .names h4 {
     font-size: 0.5rem;
@@ -146,6 +145,11 @@
   }
   .board-team-content {
     left: -0.75rem;
+  }
+  .board-team {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

@@ -208,84 +208,70 @@
 
 } */
 
-#titles
-{
+#titles {
   background-color: #212324;
   color: #01303f;
   position: relative;
   height: 1700px;
-  width:100%;
+  width: 100%;
   z-index: -100px;
   overflow: hidden;
-
-
 }
-.iv
-{
-  background-color: #9EDCFA;
-  color: #01303F;
-  height:1050px;
+.iv {
+  background-color: #9edcfa;
+  color: #01303f;
+  height: 1050px;
   width: 1150px;
-  display: inline-block;   
-  
+  display: inline-block;
+
   transform: skewX(25deg);
   border-radius: 50px;
   position: relative;
-  left:-300px;
-  top:-1px;
+  left: -300px;
+  top: -1px;
   padding-left: 250px;
-  
-  float:left;
-  box-shadow: 25px 17.16px 250px rgba(110, 205, 250, 0.4);
 
+  float: left;
+  box-shadow: 25px 17.16px 250px rgba(110, 205, 250, 0.4);
 }
-.iv2
-{
-  background-color: #9EDCFA;
-  color: #01303F;
-  height:1050px;
+.iv2 {
+  background-color: #9edcfa;
+  color: #01303f;
+  height: 1050px;
   width: 1700px;
-  display: inline-block;   
-  
+  display: inline-block;
+
   transform: skewX(25deg);
   border-radius: 50px;
   position: relative;
-  left:950px;
-  top:-1050px;
+  left: 950px;
+  top: -1050px;
   padding-left: 250px;
-  float:left;
+  float: left;
   box-shadow: 25px 17.16px 250px rgba(110, 205, 250, 0.4);
-
 }
-.content
-{
-  font-family: 'Lato',sans-serif;
-  margin-top:160px;
-  margin-left:20px;
+.content {
+  font-family: "Lato", sans-serif;
+  margin-top: 160px;
+  margin-left: 20px;
 }
-.content h1
-{
+.content h1 {
   font-weight: 900;
   font-size: 175px;
   position: relative;
-  top:240px;
+  top: 240px;
 
   margin-left: 180px;
-  
-
 }
-.content h2
-{
+.content h2 {
   font-weight: 300;
   font-size: 70px;
   margin-left: 215px;
-  position:relative;
-  top:220px;
-  
-} 
-.iv > *
-{
-    transform: skewX(-25deg);
+  position: relative;
+  top: 220px;
+}
+.iv > * {
+  transform: skewX(-25deg);
 }
 /* #iv-content
 {
@@ -326,7 +312,6 @@
   top:-649px;
   left:700px;
 box-shadow: -25px 57px 250px rgba(110, 205, 250, 0.4); */
-
 
 /* } */
 /* @media (max-width: 575.98px)
@@ -372,3 +357,26 @@ box-shadow: -25px 57px 250px rgba(110, 205, 250, 0.4); */
     left:350px;
   }
 } */
+
+@media (max-width: 600px) {
+  .iv h1 {
+    font-size: 80px;
+  }
+  .iv h2 {
+    font-size: 30px;
+  }
+  .iv {
+    width: 600px;
+    height: 800px;
+    transform: skewX(15deg);
+  }
+  .iv > * {
+    transform: skewX(-15deg);
+  }
+  .iv2 {
+    transform: skewX(15deg);
+    margin-left: -600px;
+    height: 800px;
+    margin-top: 250px;
+  }
+}

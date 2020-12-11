@@ -112,3 +112,9 @@ a.subscribe-button {
     padding-bottom: 5px;
   }
 }
+
+@media (max-width: 600px) {
+  .extra-margin {
+    margin-left: -5vw;
+  }
+}
