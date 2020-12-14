@@ -233,7 +233,7 @@
 
     <!--Domains end here-->
     <!-- Meet the team -->
-    <div class="d-flex xyz">
+    <div class="d-flex swapping">
         <div class="meet-the-team">
             <div id="meetTheTeam" class="meet-the-team-content">
                 <div class="row">
@@ -439,7 +439,7 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                        <p class="team">us</p>
+                        <p class="team us">us</p>
                     </div>
                 </div>
 
@@ -467,7 +467,7 @@
     <div class="footer">
         <div class="footer-top">
             <ul>
-                <div class="d-flex justify-content-between xyz" name="foot">
+                <div class="d-flex justify-content-between swapping" name="foot">
                     <div class="social-links d-flex justify-content-between" name="foot">
                         <li><a href="https://www.facebook.com/isavitchapter/" target="_blank" class="social-block"><img
                                     src="assets\images\facebook (3).png"></a></li>
@@ -479,21 +479,21 @@
                         <li><a href="https://github.com/isa-vit" target="_blank" class="social-block"><img class="img4"
                                     src="assets\images\github.png"></a></li>
                     </div>
-                    <div class="chapter-name d-flex justify-content-center xyz" name="foot">
+                    <div class="chapter-name d-flex justify-content-center swapping" name="foot">
                         <li class="isa-vit">
                             <h3>ISA-VIT</h3>
                         </li>
                     </div>
-                    <div class="input-box-footer d-flex xyz" name="foot">
+                    <div class="input-box-footer d-flex swapping" name="foot">
                         <li><input type="email" placeholder="xyz@example.com"></li>
                         <li><a href="#" class="subscribe-button">Subscribe</a></li>
                     </div>
                 </div>
             </ul>
         </div>
-        <hr color="#84d6fa" style="width:92%; height:0.1rem">
+        <hr class="lin" color="#84d6fa">
         <div class="extra-margin">
-            <div class="nav-links-footer d-flex justify-content-between xyz" name="foot">
+            <div class="nav-links-footer d-flex justify-content-between swapping" name="foot">
 
                 <li><a href="units/intro.html">About</a></li>
                 <li><a href="">Events</a></li>
@@ -603,9 +603,9 @@
             $(window).bind("resize", function () {
                 // console.log($(this).width())
                 if ($(this).width() < 600) {
-                    $('.xyz').removeClass('d-flex').addClass('d-flex-reverse')
+                    $('.swapping').removeClass('d-flex').addClass('d-flex-reverse')
                 } else {
-                    $('.xyz').removeClass('d-flex-reverse').addClass('d-flex')
+                    $('.swapping').removeClass('d-flex-reverse').addClass('d-flex')
                 }
             }).trigger('resize');
             });

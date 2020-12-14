@@ -14,14 +14,11 @@
   line-height: 9rem;
   margin-left: 36px;
   color: #6ecdfa;
-}
+}*/
 
-.us {
-  font-size: 3.5rem;
-  white-space: nowrap;
-  color: #d4f0fc;
-  margin-left: 359px;
-} */
+.team.us {
+  margin-left: 45rem;
+}
 
 /* .polygon.greet {
   margin-left: -119px;
@@ -79,6 +76,11 @@
   font-size: 2rem;
 }
 
+.mail .text-content {
+  position: relative;
+  margin-top: 2.5rem;
+}
+
 .col.tele {
   text-align: center;
   display: flex;
@@ -112,38 +114,39 @@
   }
   .icon.ion-ios-email-outline.mail {
     margin-top: -5px;
-    margin-left:-3px;
+    margin-left: -3px;
   }
   .la.la-phone-square.phone {
     margin-top: 12px;
     margin-left: -5px;
   }
   .icon.ion-ios-location-outline.pin {
-    margin-top: 7px;
+    margin-top: 10px;
+    position: relative;
   }
   .reacher {
     margin-top: -100px;
   }
   .reach-us-content {
-    margin-top:300px;
-    margin-left:-100px;
+    margin-top: 300px;
+    margin-left: -100px;
     border: 1px solid #6ecdfa;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    width:600px;
-    padding-left:30px;
+    width: 600px;
+    padding-left: 30px;
     text-align: right;
   }
-  .phno{
-    margin-top:-20px;
+  .phno {
+    margin-top: -20px;
   }
-  .mail
-  {
-    margin-top:-5px;
+  .mail {
+    margin-top: -5px;
+  }
+  .team.us {
+    margin-left: 20rem;
   }
 }
-
-
 
 @media (min-width: 600px) and (max-width: 768px) {
   .team-us {
@@ -174,8 +177,14 @@
   }
   .reacher {
     margin-top: -100px;
-  }/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) and (orientation=landscape) {
+  }
+  .team.us {
+    margin-left: 20rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
   .phno,
   .address,
   .mail {
@@ -185,8 +194,11 @@
   .icon.ion-ios-location-outline.pin,
   .la.la-phone-square.phone {
     font-size: 2.5rem;
-    color:i#fff;
+    color: i#fff;
     margin-top: -8rem;
+  }
+  .team.us {
+    margin-left: 20rem;
   }
 }
 
@@ -222,9 +234,15 @@
     line-height: 2rem;
     font-size: 1.5rem;
   }
+  .team.us {
+    margin-left: 25rem;
+  }
 }
 
 @media (min-width: 1300px) and (max-width: 1367px) {
+  .team.us {
+    margin-left: 45rem;
+  }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1367px) {
@@ -233,6 +251,9 @@
   }
   .reach-us-content {
     margin-top: 21.38vh;
+  }
+  .team.us {
+    margin-left: 45rem;
   }
 }
 /* Added By KevinMathewTh */

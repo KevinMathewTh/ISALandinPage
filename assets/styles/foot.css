@@ -83,6 +83,31 @@ a.subscribe-button {
 .extra-margin {
   margin-left: -100px;
 }
+.lin {
+  width: 92%;
+  height: 0.1rem;
+}
+
+@media (max-width: 600px) {
+  .extra-margin .swapping {
+    text-align: center;
+  }
+  .lin {
+    position: relative;
+    margin-top: 3rem;
+  }
+  .subscribe-button {
+    position: relative;
+    top: 1.5rem;
+  }
+  .chapter-name h3 {
+    position: relative;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 992px) {
   .social-links {
