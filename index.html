@@ -94,7 +94,7 @@
         </div>
       </nav> -->
       <nav id="navbar" class="navbar navbar-expand-md navbar-light sticky-top" >
-        <div class="container">
+        <div class="container-fluid">
             <span class="navbar-brand img-log"><img src="assets/images/ISA-logo.png"></span>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
@@ -102,19 +102,19 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav nav-links ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#intro">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Events</a>
+                        <a class="nav-link" href="#carousel-example-2">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Team</a>
+                        <a class="nav-link" href="#meetTheTeam">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#footer">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#reachus">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -154,7 +154,7 @@
     </div>
 
     <!-- Intro section starts here -->
-    <div class="intro-container">
+    <div class="intro-container" id="intro">
         <div class="row">
             <div class="col-xl-6 col-lg-5 col-sm-6">
 
@@ -491,7 +491,7 @@
                 </div>
             </div> -->
     <div class="d-flex">
-        <div class="meet-the-team">
+        <div class="meet-the-team" id="reachus">
             <div id="meetTheTeam" class="meet-the-team-content reacher">
                 <div class="row">
                     <div class="col">
@@ -525,7 +525,7 @@
     <!--footer starts here-->
 
 
-    <div class="footer">
+    <div class="footer" id="footer">
         <div class="footer-top">
             <ul>
                 <div class="d-flex justify-content-between swapping" name="foot">
@@ -556,11 +556,11 @@
         <div class="extra-margin">
             <div class="nav-links-footer d-flex justify-content-between swapping" name="foot">
 
-                <li><a href="units/intro.html">About</a></li>
-                <li><a href="">Events</a></li>
-                <li><a href="units/meetTheTeam.html">Team</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="units/reachUs.html">Contact</a></li>
+                <li><a href="#intro">About</a></li>
+                <li><a href="#carousel-example-2">Events</a></li>
+                <li><a href="#meetTheTeam">Team</a></li>
+                <li><a href="#footer">Blog</a></li>
+                <li><a href="#reachus">Contact</a></li>
 
             </div>
             <div class="student-chapter">ISA-VIT Student Chapter</div>
@@ -669,13 +669,6 @@
             }).trigger('resize');
             });
 </script>
-<script>
-    
-        $(".navbar-toggler").click(function()
-        {
-            $("nav-links").toggleClass("invis");
-        });
-   
-</script>
+
     
 </html>

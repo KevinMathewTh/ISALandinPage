@@ -1,4 +1,4 @@
-.container {
+.container-fluid {
   max-width: 90%;
 }
 
@@ -18,8 +18,9 @@
 }
 
 .navbar-brand img {
-   height: 13vh;
+   height: 12vh;
    margin-left:-4.5vw;
+   margin-top:-2vh;
 }
 
 .navbar div div ul {
@@ -62,23 +63,45 @@
   left: 0;
 }
 
-.invis
-{
-  display: none;
-}
+
 
 
  @media (max-width: 576px) {
-   .nav-link{
-     width:25% !important;
+   .nav-links{
+     width:100% !important;
+     margin-left:8vw !important;
+     background-color: #9EDCFA;
    }
+   .navbar div div ul li a:hover:after {
+    width: 20%;
+    left: 0;
+    transition:none;
+  }
+  .navbar div div ul li a:after {
+    transition: none;
+  }
 }
 
 
 @media (max-width: 768px) {
   .nav-link{
-     width:20%;
+  
+     
    }
+   .nav-links{
+    width:100%;
+    background-color: #9EDCFA;
+    margin-left:8vw !important;
+    
+  }
+  .navbar div div ul li a:hover:after {
+    width: 20%;
+    left: 0;
+    transition:none;
+  }
+  .navbar div div ul li a:after {
+    transition: none;
+  }
 } 
 
 /* Large devices (desktops, 992px and up)  
@@ -87,7 +110,7 @@
     display: none;
   }
   /* Add Hamburger Menu */
-} */
+} 
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1367px) {
