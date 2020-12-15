@@ -1,29 +1,35 @@
 .container {
   max-width: 90%;
 }
+
+.nav-link{
+  font-size: 1.1em !important;
+} 
+
 .navbar {
   padding-left: 2.6vw;
   width: 100%;
   height: 14.16vh;
-  position: fixed;
+  position: fixed !important;
   z-index: 2;
   background-color: none;
   /* background-color: #d4f0fcec; */
   transition: top 0.3s;
 }
 
-.img-log img {
-  height: 9.26vh;
+.navbar-brand img {
+   height: 13vh;
+   margin-left:-4.5vw;
 }
 
-.navbar ul {
+.navbar div div ul {
   margin: 0 0;
   padding: 0vw;
   display: flex;
   font-family: "Lato", sans-serif;
   margin-right: -0.2vw;
 }
-.navbar ul li a {
+.navbar div div ul li a {
   text-decoration: none;
   font-weight: bold;
   font-size: 2.08vw;
@@ -32,14 +38,14 @@
   padding-right: 0rem;
   margin-top: 0.18vh;
 }
-.navbar ul li {
+.navbar div div ul li {
   list-style: none;
   padding: 0vw 1.82vw 0vw 0.52vw;
   margin-right: -0.26vw;
 }
 
 /* Hover Animation */
-.navbar a:after {
+.navbar div div ul li a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0.46vh;
   content: "";
@@ -51,26 +57,37 @@
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-.navbar a:hover:after {
+.navbar div div ul li a:hover:after {
   width: 100%;
   left: 0;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+.invis
+{
+  display: none;
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+
+ @media (max-width: 576px) {
+   .nav-link{
+     width:25% !important;
+   }
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (max-width: 1351px) {
+
+@media (max-width: 768px) {
+  .nav-link{
+     width:20%;
+   }
+} 
+
+/* Large devices (desktops, 992px and up)  
+/* @media (max-width: 1351px) {
   .navbar a {
     display: none;
   }
   /* Add Hamburger Menu */
-}
+} */
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1367px) {
@@ -79,6 +96,5 @@
     padding-left: 2.6vw;
     margin-left: auto;
   }
-  .navbar {
-  }
-}
+} 
+

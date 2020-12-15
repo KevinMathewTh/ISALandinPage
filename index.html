@@ -13,7 +13,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
     <!-- Font Awesome -->
     <link href="assets/fontawesome/css/all.css" rel="stylesheet">
@@ -37,6 +41,8 @@
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+    
     <title>ISA | VIT </title>
 
     <!-- Other Head Files go here -->
@@ -44,7 +50,7 @@
 
 <body>
     <!-- Navbar starts Here -->
-    <div id="navbar" class="navbar">
+    <!-- <div id="navbar" class="navbar">
 
         <div class="img-log"><img src="assets/images/ISA-logo.png"></div>
 
@@ -53,14 +59,69 @@
             <li><a href="">Events</a></li>
             <li><a href="units/meetTheTeam.html">Team</a></li>
             <li><a href="">Blog</a></li>
-            <li><a class="topic" href="units/reachUs.html">Contact us</a></li>
-
-
-
-
+            <li><a class="topic" href="units/reachUs.html">Contact us</a>
+            </li>
         </ul>
     </div>
-    </div>
+    </div> -->
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="assets/images/ISA-logo.png"></a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" >Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" >Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" >Contact Us</a>
+              </li>
+            </ul>
+              
+          </div>
+        </div>
+      </nav> -->
+      <nav id="navbar" class="navbar navbar-expand-md navbar-light sticky-top" >
+        <div class="container">
+            <span class="navbar-brand img-log"><img src="assets/images/ISA-logo.png"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav nav-links ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
     <!-- Hero starts here -->
     <div id="titles">
 
@@ -544,8 +605,6 @@
     <!--footer ends here-->
 
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script>
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
@@ -610,5 +669,13 @@
             }).trigger('resize');
             });
 </script>
-
+<script>
+    
+        $(".navbar-toggler").click(function()
+        {
+            $("nav-links").toggleClass("invis");
+        });
+   
+</script>
+    
 </html>
