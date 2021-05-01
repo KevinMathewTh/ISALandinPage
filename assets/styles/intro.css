@@ -5,6 +5,7 @@
   /* left:500px; */
   left: -60px;
   top: 1250px;
+  overflow-x: hidden;
 }
 /* .polygon {
   width: 460px;

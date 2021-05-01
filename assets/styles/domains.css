@@ -15,7 +15,8 @@ body {
 .a-1 {
   color: #6ecdfa;
   text-align: center;
-  font-size: 6.5rem;
+  font-size: 6rem;
+  margin-left:-10px;
   justify-content: top;
 }
 
